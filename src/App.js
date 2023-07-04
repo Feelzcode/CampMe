@@ -3,12 +3,13 @@ import './App.css';
 import Navbar from './Homepage/Navbar';
 import Indexhome from './Homepage/indexhome';
 import Footer from './Homepage/footer';
+import Router from './mainRouter/Router';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Indexhome/>
+      <Router/>
       <Footer/>
     </div>
   );
